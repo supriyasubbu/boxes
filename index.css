@@ -1,0 +1,151 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+.title {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.box1 {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #fbbf24;
+}
+
+@media screen and (min-width: 768px) {
+  .box1 {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box1 {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .box1 {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+.title {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .box-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .box-container {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+.box2 {
+  height: 150px;
+  width: 150px;
+  background-color: #38bdf8;
+  margin-bottom: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .box2 {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box2 {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.box3 {
+  height: 270px;
+  width: 270px;
+  background-color: #ec4899;
+  margin-bottom: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .box3 {
+    height: 340px;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .box3 {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box3 {
+    height: 450px;
+    width: 450px;
+  }
+}
